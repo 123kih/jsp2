@@ -19,5 +19,7 @@
 </head>
 <body>
     <p>아이디 : <%=userid%></p>
+    <p>비밀번호 : <%=userpw%></p>
+
 </body>
 </html>

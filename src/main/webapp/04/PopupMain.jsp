@@ -10,10 +10,10 @@
 
     if(cookies != null){
         for(Cookie c:cookies){
-            String cookieNmae=c.getName();
+            String cookieName=c.getName();
             String cookieValue=c.getValue();
 
-            if(cookieNmae.equals("PopupClose")){
+            if(cookieName.equals("PopupClose")){
                 popupMode=cookieValue;
             }
         }
@@ -53,7 +53,7 @@
             out.println("현재 팝업창은 " + popupMode + "상태입니다. <br>");
         }
         if(popupMode.equals("on")){
-            %>
+    %>
         <div id="popup">
             <h2 align="center">공지사항 팝업</h2>
             <div align="right">
@@ -67,24 +67,24 @@
         }
     %>
             <script>
-                // $("#closeBtn").click(function (){
-                //     $("#popup").hide();
-                //
-                //     var chkVal=$("input:checkbox[id=inactiveToday]:checked").val();
-                //     if(chkVal==1){
-                //         $.ajax({
-                //             url:'./PopupCookie.jsp',
-                //             type : 'get',
-                //             data:{inactiveToday : chkVal},
-                //             dataType:"text",
-                //             success : function (res){ //요청 성공시 동작할 코드
-                //                 console.log(res);
-                //             if(res !=''){
-                //                 location.reload();
-                //             }
-                //             }
-                //         })
-                //     }
+                $("#closeBtn").click(function (){
+                    $("#popup").hide();
+
+                    var chkVal=$("input:checkbox[id=inactiveToday]:checked").val();
+                    if(chkVal==1){
+                        $.ajax({
+                            url:'./PopupCookie.jsp',
+                            type : 'get',
+                            data:{inactiveToday : chkVal},
+                            dataType:"text",
+                            success : function (res){ //요청 성공시 동작할 코드
+                                console.log(res);
+                            if(res !=''){
+                                location.reload();
+                            }
+                            }
+                        })
+                    }
                 })
             </script>
 </body>

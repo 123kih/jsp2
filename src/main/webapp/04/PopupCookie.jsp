@@ -5,7 +5,7 @@
   String chkVal= request.getParameter("inactiveToday");
 
   if(chkVal!=null && chkVal.equals("1")){
-    Cookie cookie= new Cookie("popupClose","off");
+    Cookie cookie= new Cookie("PopupClose","off");
 
     cookie.setPath(request.getContextPath());
     cookie.setMaxAge(86400);
