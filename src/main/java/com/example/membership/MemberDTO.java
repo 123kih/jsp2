@@ -1,4 +1,4 @@
-package com.example.jsp.common.membership;
+package com.example.membership;
 
 public class MemberDTO {
     //멤버 변수 선언

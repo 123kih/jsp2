@@ -15,6 +15,7 @@
         <li>
             request 영역 : <%=request.getAttribute("rAttr")%>
         </li>
+
     </ul>
 </body>
 </html>

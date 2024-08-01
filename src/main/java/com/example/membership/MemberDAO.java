@@ -1,7 +1,6 @@
-package com.example.jsp.common.membership;
+package com.example.membership;
 
-
-import com.example.jsp.common.DBConnPool;
+import com.example.common.DBConnPool;
 
 public class MemberDAO extends DBConnPool {
 

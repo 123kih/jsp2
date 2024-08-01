@@ -1,5 +1,5 @@
-<%@ page import="com.example.jsp.common.membership.MemberDAO" %>
-<%@ page import="com.example.jsp.common.membership.MemberDTO" %>
+<%@ page import="com.example.membership.MemberDAO" %>
+<%@ page import="com.example.membership.MemberDTO" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java"
          pageEncoding="UTF-8"
 %>
