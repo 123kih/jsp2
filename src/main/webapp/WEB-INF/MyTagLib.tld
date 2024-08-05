@@ -9,7 +9,7 @@
     <short-name>mytag</short-name>
     <function>
         <name>isNumber</name>
-        <function-class>com.EL.MYElClass</function-class>
+        <function-class>com.example.EL.MYElClass</function-class>
         <function-signature>boolean isNumber(java.lang.String)</function-signature>
     </function>
 </taglib>

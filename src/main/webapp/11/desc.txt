@@ -1,0 +1,11 @@
+JSTL (JSP Standard Tag Library)
+
+JSP 에서 자주 사용되는 조건문, 반복문 등을 처리해주는 태그를 모아 표준으로 만들어놓은 라이브러리
+JSTL을 사용하면 스크립틀릿 없이 태그만 작성해 코드가 간결해진다.
+
+JSTL의 종류
+1.Core
+2.Formatting
+3.XML
+4.Function
+5.SQL

@@ -1,4 +1,4 @@
-package com.EL;
+package com.example.EL;
 
 public class MYElClass {
 

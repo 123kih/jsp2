@@ -1,4 +1,4 @@
-<%@ page import="com.example.el.MyElClass" %>
+<%@ page import="com.example.EL.MYElClass" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java"
          pageEncoding="UTF-8"
 %>
@@ -6,7 +6,7 @@
 
 <%
   /*EL은 영역에 저장된 값을 가져오는 기법*/
-  MyElClass myClass = new MyElClass();
+  MYElClass myClass = new MYElClass();
   pageContext.setAttribute("myClass" , myClass);
 %>
 <html>
